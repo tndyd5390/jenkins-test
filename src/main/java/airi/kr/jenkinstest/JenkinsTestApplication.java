@@ -15,6 +15,6 @@ public class JenkinsTestApplication {
 
   @GetMapping(value="/")
   public String home() {
-    return "version 1";
+    return "test01";
   }
 }
