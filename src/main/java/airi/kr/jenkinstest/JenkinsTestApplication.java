@@ -19,12 +19,7 @@ public class JenkinsTestApplication {
   @GetMapping(value="/")
   public String home() {
 
-    List<String> tmp = new ArrayList<>();
-    tmp.add("a");
-    tmp.add("B");
-    tmp.add("C");
-    System.out.println(tmp.stream().map(a -> a + "a").findFirst());
-    return "test01";
+    return "test change";
 
   }
 }
