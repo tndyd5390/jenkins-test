@@ -24,7 +24,7 @@ public class JenkinsTestApplication {
     tmp.add("B");
     tmp.add("C");
     System.out.println(tmp.stream().map(a -> a + "a").findFirst());
-    return "version 02";
+    return "version 03";
 
   }
 }
