@@ -18,7 +18,7 @@ public class JenkinsTestApplication {
 
   @GetMapping(value="/")
   public String home() {
-    System.out.println("testtttt");
+    System.out.println("testttttt");
     return "webhook test";
 
   }
