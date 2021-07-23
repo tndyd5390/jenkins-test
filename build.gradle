@@ -31,3 +31,8 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+bootBuildImage {
+    imageName = "jenkins-test"
+    publish = false
+}
